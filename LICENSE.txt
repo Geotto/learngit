@@ -1,1 +1,2 @@
 这是许可证
+a program published under GPL license.
