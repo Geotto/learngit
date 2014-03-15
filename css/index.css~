@@ -1,0 +1,279 @@
+body{
+	margin:0;
+    padding:0;
+    background-image:url(http://webgrid-img.stor.sinaapp.com/moon_bridge.jpg);
+    background-size:100% 100%;
+    color:white;
+}
+
+#header,#main,#footer{
+    width:100%;
+}
+
+#header,#footer{
+    background-color:black;
+}
+
+#main{
+	color:#0f0;
+}
+
+#title{
+    margin:auto 0;
+    line-height:100%;
+	color:white;
+	float:left;
+}
+
+#logo{
+	float:left;
+}
+
+.icon_group{
+	margin-top:5px;
+}
+
+#launcher{
+	float:left;
+}
+
+#commen{
+    margin-left:10px;
+	float:left;
+}
+
+#bar-add{
+	float:left;
+}
+
+#desktop{
+    margin-right:10px;
+	float:right;
+}
+
+#login{
+	float:right;	
+}
+
+.iconBox{
+    border:1px solid gray;
+    border-radius:4px 4px 4px 4px;
+    box-shadow:1px 1px 5px black,inset 0 -10px 30px #ccc;
+    background-color:white;
+    text-align:center;
+    margin:0 5px;
+	width:32px;
+    height:32px;
+    float:left;
+}
+
+.list-icon{
+	margin:0 12px;
+}
+
+.icon{
+	height:100%;
+    width:100%;
+}
+
+.icon:hover{
+    cursor:pointer;
+    background-color:#ff8;
+}
+
+.label-icon{
+    color:lightgreen;
+	width:100%;
+    float:right;
+}
+
+.row{
+    margin:10px 10px;
+}
+
+.win{
+    position:fixed;
+    border-radius:5px 5px 5px 5px;
+    box-shadow:5px 5px 30px black;
+}
+
+.title_bar{
+	float:left;
+    background-color:orange;
+    border-radius:5px 5px 0 0;
+    width:100%;
+    height:32px;
+}
+
+.title_field{
+    width:100%;
+	color:green;
+    font-size:24px;
+    text-align:left;
+    padding-left:5px;
+    padding-top:5px;
+}
+
+.closeit{
+    float:right;
+    border:1px solid white;
+    border-radius:10px 10px 10px 10px;
+    background-color:green;
+    cursor:pointer;
+    width:19px;
+    height:19px;
+    position:relative;
+    top:-30px;
+    left:8px;
+}
+
+.win_body{
+	width:100%;
+    float:left;
+}
+
+#win_list{
+    display:none;
+    width:640px;
+    height:510px;
+    background-color:#444;
+}
+
+#win_list_left{
+    float:left;
+    width:500px;
+    padding:5px 0;
+}
+
+#win_list_left_top{
+	width:500px;
+    height:32px;
+}
+
+#win_list_left_bottom{
+    width:500px;
+    height:415px;
+    overflow:auto;
+}
+
+#win_list_right{
+    float:right;
+	width:128px;
+    background-color:#444;
+    padding:0 5px;
+}
+
+#win_register,#win_login{
+	display:none;
+    width:640px;
+    height:480px;
+    background-color:#444;
+}
+
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float:right;
+}
+
+.type{
+    text-align:center;
+	float:right;
+    width:100%;
+    border-radius:5px 5px 5px 5px;
+    border:1px solid black;
+    box-shadow:inset 0 -2px 5px black;
+    background-color:#444;
+    padding:5px 0;
+    margin:2px 0;
+}
+.type:hover{
+    box-shadow:0 -2px 5px black;
+    cursor:pointer;
+}
+
+#tag_name{
+	width:320px;
+}
+#tag_search{
+    margin-left:5px;
+	width:64px;
+}
+
+#win_list_left_bottom>.span1{
+	height:80px;
+}
+
+#body_register,#body_login{
+	margin-top:100px;
+}
+
+#tag_do_register{
+	border-radius:2px;
+    color:blue;
+}
+
+#tag_do_register:hover{
+    cursor:pointer;
+    background-color:lightgreen;
+}
+
+#messagebox{
+    display:none;
+    position:fixed;
+    top:48px;
+    width:240px;
+    font-size:20px;
+	border-radius:5px;
+    box-shadow:5px 5px 20px black;
+    background-color:rgba(0,0,0,.80);
+    padding:10px;
+}
+
+#timezone,#about{
+    position:relative;
+	float:right;
+    margin: 5px;
+}
+
+#about:hover{
+    background-color:orange;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#win_about{
+	width:240px;
+    background-color:white;
+    color:black;
+    padding:10px;
+    display:none;
+    position:fixed;
+    top:24px;
+}
+
+.grid{
+    padding:5px 0;
+    height:64px;
+    width:70px;
+    margin:0 10px;
+    float:left;
+}
+
+.grid:hover{
+	border-radius:5px;
+    background-color:rgba(128,128,128,.5);
+}
+
+.icon-desktop{
+	margin:0 18px;
+}
+
+.tick{
+	position:relative;
+    top:-40px;
+    left:16px;
+    display:none;
+}

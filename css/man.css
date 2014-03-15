@@ -1,0 +1,34 @@
+#main{
+	width:965px;
+	margin:20px auto;
+}
+
+h3{
+	color:green;
+	background-color:orange;
+	padding:5px;
+	border-radius:0 20px 20px 0;
+}
+
+.content{
+	margin:10px;
+}
+
+.step{
+	margin:5px 0;
+	color:rgb(63,63,63);
+}
+
+.step-title{
+	padding:0 2px;
+	color:blue;
+	background-color:gray;
+	border-radius:5px;
+	font-weight:bold;
+	margin:0 3px;
+}
+
+.screenshot{
+	width:860px;
+	margin:10px 50px;
+}
